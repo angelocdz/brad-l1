@@ -17,14 +17,14 @@ npm install
 cd /
 cd mongodb/bin
 mongo
- show dbs
- use loginapp
- db.dropDatabase(); = loginapp is remove
- show dbs
+show dbs
+use loginapp
+db.dropDatabase(); = loginapp is remove
+show dbs
 
- use loginapp
- db.createColleciton('users');
- show collections
+use loginapp
+db.createColleciton('users');
+show collections
 ```
 
 express-validator
@@ -45,3 +45,13 @@ bootstrap, download
 
 bootstrap, examples, narrow jumbotron, ctrl+u
  jumbotron.css copy & paste it to paster style.css
+
+bcryptjs
+
+```bash
+mongo
+show dbs
+use loginapp
+show collections
+db.users.find()
+```
